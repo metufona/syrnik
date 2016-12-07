@@ -1,0 +1,97 @@
+#slider-main {
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	background:#0a3455;
+}
+#slider-main .text-orange {
+	font-family: "Roboto Condensed", Verdana, Arial, Tahoma, sans-serif;
+}
+#slider-main .carousel-inner .item {
+	height:250px;
+	text-align:center;
+	line-height:50px;
+	font-size:30px;
+	padding:40px;
+	color:#fff;
+	text-transform:uppercase;
+	}
+	
+#slider-main .slider-text{
+	float:right;
+	width:70%;
+	padding-top:45px;
+	font-size:18px;
+	color:#fff;
+	padding-right:75px;
+	text-align:right;
+	background:rgba(0,0,0,0) url(images/slider-text-bg.png) right 0 no-repeat;
+	height:100%;
+	text-transform:uppercase;
+}
+
+ #slider-main .carousel-control {
+	border:0px;
+	color:rgba(0,0,0,0);
+	background:rgba(0,0,0,0);
+	text-shadow:none;
+	display:none;
+}
+#slider-main:hover .carousel-control {
+	display:block;
+	opacity:1;
+}
+#slider-main .carousel-control.left{
+	margin-left:10px;
+	width:15px;
+	height:100%;
+	background:rgba(0,0,0,0) url(images/scroll.png) 0px 50% no-repeat;
+	
+}
+#slider-main .carousel-control.left:hover {
+	background:rgba(0,0,0,0) url(images/scroll_hover.png) 0px 50% no-repeat;
+}
+#slider-main .carousel-control.right {
+	margin-right:10px;
+	width:15px;
+	height:100%;
+	background:rgba(0,0,0,0) url(images/scroll.png) -41px 50% no-repeat;
+}
+#slider-main .carousel-control.right:hover {
+	background:rgba(0,0,0,0) url(images/scroll_hover.png) -41px 50% no-repeat;	
+}
+ #slider-main .carousel-indicators {
+	left:0px !important;
+	bottom:0px !important;
+	margin:0px;
+	padding:0px;
+	background:linear-gradient(to right, #27aae1, #2b3990);
+	width:100%;
+}
+
+#slider-main .carousel-indicators > li {
+	display:inline-block;
+	float:left;
+	background:rgba(0,0,0,0);
+	border:1px solid rgba(0,0,0,0);
+	border-radius:0px;
+	height:5px;
+	width:50%;
+	margin:0px;
+}
+
+#slider-main .carousel-indicators > li.active{
+	background:#f7941e;
+	border:1px solid #f7941e;	
+}
+
+#slider-main:hover .carousel-control {
+	display:block;
+	background-color:transparent;
+}
+@media(max-width:767px){
+	#slider-main .carousel-inner .item {
+		font-size:18px;
+		line-height:1.5;
+	}
+}

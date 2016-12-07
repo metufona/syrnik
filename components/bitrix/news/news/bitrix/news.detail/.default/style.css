@@ -1,0 +1,28 @@
+.news-detail {
+	padding: 9px 7px 9px 7px;
+}
+.news-date-time {
+	display:block;
+	font-size:18px;
+    display: block;
+	width: 100px;
+    line-height: 18px;
+	text-align:center;
+	z-index:5;
+}
+
+.detail-pic {
+	z-index:1;
+	display:block;
+	text-align:center;
+}
+.detail-pic img {
+	margin:0px 0px 10px 10px;
+	float:right;
+	max-width:40%;
+	border:1px solid #e2e2e2;
+}
+.detail-text {
+	display:block;
+	margin-top:10px;
+}

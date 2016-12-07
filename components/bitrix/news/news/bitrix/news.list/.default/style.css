@@ -1,0 +1,27 @@
+.news .news-item {
+	background:#fff;
+	border-radius:5px;
+	padding:10px;
+	margin-bottom:10px;
+}
+.news .news-title{
+	font-weight:700;
+	
+}
+.news .news-date-time {
+	margin:7px 0px;
+}
+.news .more i  {
+	margin-left:3px;
+	margin-right:7px;	
+}
+.news .more:hover i {
+	animation-name: arrow;
+    animation-duration: 1s;
+
+}
+@keyframes arrow {
+    0% {margin-left:3px;margin-right:7px;}
+    30% {margin-left:7px; margin-right:3px;}
+	100% {margin-left:3px;margin-right:7x;}
+}

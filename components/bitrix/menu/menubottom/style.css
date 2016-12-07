@@ -1,0 +1,14 @@
+.footer_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_list li {
+  margin-bottom: 8px;
+}
+
+.footer_list a {
+  color: #fff;
+  font-weight: 600;
+}
